@@ -1,4 +1,3 @@
-# econ3916-lab09-ab-testing
 # A/B Testing — Designing the Data-Generating Process
 
 ## Objective
@@ -17,7 +16,7 @@ I measured the effect of a job training program and a mobile game change using r
 
 ## Key Findings
 
-- **Job training:** Trainees earned $[YOUR VALUE] more than controls. The permutation test gave p = [YOUR VALUE], and the 95% confidence interval ran from $[YOUR VALUE] to $[YOUR VALUE].
-- **Selection bias:** The simulated observational comparison group gave an ATE of $[YOUR VALUE]. The difference from the experimental estimate shows how much a non-random comparison group can distort the result.
-- **Cookie Cats:** Day-1 retention differed by [YOUR VALUE] percentage points between the level 30 and level 40 groups (p = [YOUR VALUE]).
-- **Rerun size:** A rerun of Cookie Cats would need [YOUR VALUE] players per group.
+- **Job training:** Trainees earned $1,794.34 more than controls. The permutation test gave p = 0.0046, and the 95% confidence interval ran from $575.18 to $3,262.37.
+- **Selection bias:** The simulated observational comparison group gave an ATE of −$14,784.45. The sign flipped from positive to negative, which shows how much a non-random comparison group can distort the result.
+- **Cookie Cats:** The level 30 group had a Day-1 retention rate 0.59 percentage points higher than the level 40 group (p = 0.0752), which is not significant at the 0.05 level.
+- **Rerun size:** A rerun of Cookie Cats would need 111,192 players per group to detect a difference of that size with 80% power.
